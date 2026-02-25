@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lesson 6: CSS Layout</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        p {
+            width: 500px;
+        }
+
+        .first-sentence {
+            font-weight: bold;
+            color: darkblue;
+        }
+
+        #cloud-pic {
+            width: 150px;
+            float: right;
+            margin-left: 15px;
+        }
+
+        .box {
+            width: 200px;
+            padding: 15px;
+            margin: 20px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Layout</h1>
+
+    <img id="cloud-pic" src="https://www.khanacademy.org/computer-programming/i/5638093524097024">
+
+    <p>
+        <span class="first-sentence">
+            This is the first sentence of the paragraph.
+        </span>
+        The rest of the paragraph flows normally around the image and
+        demonstrates how CSS layout works.
+    </p>
+
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+
+</body>
+</html>
