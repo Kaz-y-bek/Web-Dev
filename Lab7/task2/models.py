@@ -18,7 +18,7 @@ class Dog(Animal):
     def sound(self):
         return "Woof! Woof!"
 
-    def fetch(self):
+    def play(self):
         return self.name + " is playing with a ball!"
 
 class Cat(Animal):
