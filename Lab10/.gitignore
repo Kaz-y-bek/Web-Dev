@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.pot
+venv/
+env/
+.vscode/
+Thumbs.db
+desktop.ini
+.env
+staticfiles/
+*.pyo
+*.pyd
+.idea/
+node_modules/
